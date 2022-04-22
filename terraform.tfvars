@@ -1,0 +1,14 @@
+aws_access_key = "AKIA5JXGZUQ6NX4OM5EW"
+aws_secret_key = "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"
+aws_region = "us-east-1"
+vpc_cidr = "10.1.0.0/16"
+vpc_name = "DevOpsTerraform-VPC"
+IGW_name = "DevOpsTerraform-IGW"
+Main_Routing_Table  = "Terraform_Main_table-tetsting"
+private_Routing_Table  = "Terraform_private_table-tetsting"
+key_name = "AWSB12-keypair"
+env = "dev"
+public_cidr = ["10.1.1.0/24","10.1.2.0/24","10.1.3.0/24"]
+private_cidr = ["10.1.10.0/24","10.1.20.0/24","10.1.30.0/24"]
+azs = ["us-east-1a","us-east-1b","us-east-1c","us-east-1d","us-east-1e","us-east-1f"]
+imagename = "ami-0e472ba40eb589f49"
